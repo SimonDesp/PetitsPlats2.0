@@ -1,0 +1,221 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-width: 1440px;
+}
+
+
+.logo-baniere {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+}
+
+.banniere {
+  position: relative;
+}
+
+.banniere h1 {
+  color: #FFD15B;
+  font-family: 'Anton', sans-serif;
+  position: absolute;
+  top: 230px;
+  width: 1000px;
+  left: 244px;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.container {
+  left: 260px;
+  position: absolute;
+  top: 400px;
+  width: 900px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 950px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  border-radius: 11px;
+  padding: 10px 20px;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: #7A7A7A;
+  font-family: 'Manrope', sans-serif;
+}
+
+.fa-magnifying-glass {
+  font-size: 30px;
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  background: #1B1B1B;
+}
+
+.button-liste {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  margin-left: 60px;
+  position: relative;
+}
+
+.button-index {
+  min-width: 173px;
+  height: 46px;
+  border-radius: 11px;
+  padding: 12px 10px 12px 10px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+
+.compteur-recette {
+  /* font-family: 'Manrope', sans-serif; */
+  align-self: center;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  left: 1210px;
+  width: 160px;
+;
+}
+
+.img-card {
+  width: 380px;
+  height: 253px;
+  object-fit: cover;
+  border-radius: 21px 21px 0px 0px;
+}
+
+.temps {
+  width: 60px;
+  height: 26px;
+  border-radius: 14px;
+  background: #FFD15B;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -240px;
+}
+
+.temps p {
+  color: #1B1B1B;
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding: 0 40px;
+}
+
+.card-recette {
+  background-color: #FFFFFF;
+  width: 380px;
+  height: 731px;
+  border-radius: 21px;
+  margin-bottom: 60px;
+}
+
+.card-recette h2, h3, p {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.card-recette h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 20px;
+  text-align: left;
+
+}
+
+.recette, .ingredients {
+  margin-top: 30px;
+}
+
+.recette h3 {
+  color: #7A7A7A;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-align: left;
+}
+
+.ingredients h3 {
+  color: #7A7A7A;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-align: left;
+}
+
+.recette p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1B1B1B;
+}
+
+.description  {
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1B1B1B;
+  margin: 0px 25px;
+}
+
+.quantite {
+  color: #7A7A7A;
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.description-card {
+  display: flex;
+}

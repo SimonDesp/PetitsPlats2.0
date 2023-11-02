@@ -1,19 +1,71 @@
 <!DOCTYPE html>
-
 <html lang="fr">
+
   <head>
-    <link href="css/index.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="">
-    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="/css/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Raleway:wght@700&family=Shrikhand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7c4444f80.js" crossorigin="anonymous"></script>
     <title>PetitsPlats2.0</title>
   </head>
+
   <body>
     <header>
     </header>
     <main>
+      <div class="banniere">
+        <img class="img-baniere" src="/assets/logo/Baniere.png" alt="image recette">
+        <img class="logo-baniere" src="/assets/logo/Les-petits-plats.png" alt="logo les petits plats">
+        <h1>CHERCHEZ PARMI PLUS DE 1500 RECETTES DU QUOTIDIEN,SIMPLES ET DÉLICIEUSES</h1>
+        <div class="container">
+          <form action="" class="search-bar">
+            <input type="text" placeholder="Rechercher une recette, un ingrédients..." name="q"></input>
+            <button type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+          </form>
+        </div>
+      </div>
 
+      <div class="button-liste">
+        <button class="button-index">Ingrédients <i class="fa-solid fa-chevron-down" style="color: #000000;"></i></button>
+        <button class="button-index">Appareils <i class="fa-solid fa-chevron-down" style="color: #000000;"></i></button>
+        <button class="button-index">Ustensiles <i class="fa-solid fa-chevron-down" style="color: #000000;"></i></button>
+        <div class="compteur-recette">1500 recettes</div>
+      </div>
+
+      <div class="card-container" id="card-container">
+        <div class="card-recette" id="card-recette">
+          <div>
+            <img class="img-card" src="/assets/recette-les-petits-plats/recette/Recette01.jpg" alt="image recette">
+            <div class="temps">
+              <p>10min</p>
+            </div>
+            <h2>Limonade de Coco</h2>
+          </div>
+          <div class="recette">
+            <h3>RECETTE</h3>
+            <p>Mettre les glaçons à votre goût dans le blender, Ajouter le lait  la crème de coco, le jus de 2 citrons et le sucre ensemble. Mixer jusqu'à obtenir la consistance désirée.</p>
+          </div>
+          <div class="ingredients">
+            <h3>INGRÉDIENTS</h3>
+            <div class="description-card">
+              <div>
+                <p class="description">lait de Coco</p>
+                <p class="quantite">400ml</p>
+              </div>
+              <div>
+                <p class="description">lait de Coco</p>
+                <p class="quantite">400ml</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <script src="scripts/factories/photographer.js"></script>
+    <script src="/scripts/factories/index.js"></script>
+    <script src="/scripts/Services/RecipesServiceData.js"></script>
   </body>
 </html>
