@@ -114,7 +114,7 @@ body {
   border-radius: 21px 21px 0px 0px;
 }
 
-.temps {
+/* .temps {
   width: 60px;
   height: 26px;
   border-radius: 14px;
@@ -122,22 +122,25 @@ body {
   position: absolute;
   margin-left: 300px;
   margin-top: -240px;
-}
+} */
 
-.temps p {
+.temps {
   color: #1B1B1B;
   font-family: 'Manrope', sans-serif;
   font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0em;
   text-align: center;
-  margin: 0;
   padding: 5px;
+  width: 60px;
+  border-radius: 14px;
+  background: #FFD15B;
+  position: absolute;
+  margin-left: 290px;
+  margin-top: -290px;
 }
 
 .card-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 60px;
   padding: 0 40px;
@@ -217,5 +220,6 @@ body {
 }
 
 .description-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }

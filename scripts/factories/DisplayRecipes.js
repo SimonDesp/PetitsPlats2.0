@@ -1,5 +1,3 @@
-
-
 class DisplayRecipes {
     constructor(recipes) {
       this.recipes = recipes
